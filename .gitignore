@@ -1,6 +1,6 @@
 #PERSONALIZADO
 .metadata/
-.bin/
+bin/
 
 # Compiled class file
 *.class
