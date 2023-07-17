@@ -1,9 +1,6 @@
 #PERSONALIZADO
 .metadata/
 .bin/
-*.xml
-*.classpath
-*.proyect
 
 # Compiled class file
 *.class
