@@ -10,13 +10,14 @@ import modelo.Veterinario;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Date;
+import java.util.ArrayList;
 
 import dao.DaoVeterinario;
 
 /**
  * Servlet implementation class ControladorVeterinario
  */
-public class ControladorVeterinario extends HttpServlet {
+public class ControladorVeterinario2 extends HttpServlet {
 	
 	private PrintWriter salida;
 	DaoVeterinario veterinarioadmin = new DaoVeterinario();
@@ -27,7 +28,7 @@ public class ControladorVeterinario extends HttpServlet {
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ControladorVeterinario() {
+    public ControladorVeterinario2() {
         super();
         // TODO Auto-generated constructor stub
     }
